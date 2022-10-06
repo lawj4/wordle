@@ -56,7 +56,7 @@ def bug_test():
 
 
 def random_word():
-    url = "https://www.mit.edu/~ecprice/wordlist.10000"
+    url = "https://www-cs-faculty.stanford.edu/~knuth/sgb-words.txt"
     request = urllib.request.urlopen(url)
     data = request.read().decode('utf-8')
 
